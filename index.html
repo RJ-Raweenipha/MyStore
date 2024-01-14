@@ -35,7 +35,7 @@
     <!-- Collection Section-->
     <section class="section container">
       <h2 class="section-title">Collections</h2>
-      <ul class="collection-list">
+      <div class="collection-list">
         <li class="collection-item collection-item-one">
           <h3 class="collection-item-title">Classic</h3>
           <p>
@@ -43,19 +43,23 @@
             viverra adipiscing at in.
           </p>
         </li>
-        <li class="collection-item collection-item-two">
-          <h3 class="collection-item-title">Sport</h3>
-          <p>Egestas diam in arcu cursus euismod quis.</p>
-        </li>
-        <li class="collection-item collection-item-three">
-          <h3 class="collection-item-title">Sandal</h3>
-          <p>Placerat in egestas erat imperdiet sed euismod. Gravida quis.</p>
-        </li>
-        <li class="collection-item collection-item-four">
-          <h3 class="collection-item-title">Casual</h3>
-          <p>Dignissim diam quis enim lobortis scelerisque fermentum dui.</p>
-        </li>
-      </ul>
+        <div class="collection-list-layer-2">
+          <div class="collection-list-layer-3">
+            <li class="collection-item collection-item-two">
+              <h3 class="collection-item-title">Sport</h3>
+              <p>Egestas diam in arcu cursus euismod quis.</p>
+            </li>
+            <li class="collection-item collection-item-three">
+              <h3 class="collection-item-title">Sandal</h3>
+              <p>Placerat in egestas erat imperdiet sed euismod. Gravida quis.</p>
+            </li>
+          </div>
+          <li class="collection-item collection-item-four">
+            <h3 class="collection-item-title">Casual</h3>
+            <p>Dignissim diam quis enim lobortis scelerisque fermentum dui.</p>
+          </li>
+        </div>
+        </ul>
     </section>
 
     <!-- Product Section -->
@@ -116,17 +120,19 @@
       <h2 class="section-title">Our Story</h2>
       <div class="about-content">
         <img src="./images/our-story.jpg" alt="Photo by Raoul Ortega on Unsplash" class="about-image" />
-        <p class="about-description">
-          Vel orci porta non pulvinar. Non sodales neque sodales ut etiam sit
-          amet nisl purus. Eget dolor morbi non arcu risus quis. Posuere urna
-          nec tincidunt praesent semper feugiat nibh sed. Scelerisque purus
-          semper eget duis. Dictumst quisque sagittis purus sit amet volutpat
-          consequat mauris nunc. Imperdiet massa tincidunt nunc pulvinar
-          sapien et ligula ullamcorper. Scelerisque in dictum non consectetur
-          a erat nam. Amet mauris commodo quis imperdiet massa. Amet venenatis
-          urna cursus eget.
-        </p>
-        <a href="/" class="button">Know Us More</a>
+        <div class="wrapper">
+          <p class="about-description">
+            Vel orci porta non pulvinar. Non sodales neque sodales ut etiam sit
+            amet nisl purus. Eget dolor morbi non arcu risus quis. Posuere urna
+            nec tincidunt praesent semper feugiat nibh sed. Scelerisque purus
+            semper eget duis. Dictumst quisque sagittis purus sit amet volutpat
+            consequat mauris nunc. Imperdiet massa tincidunt nunc pulvinar
+            sapien et ligula ullamcorper. Scelerisque in dictum non consectetur
+            a erat nam. Amet mauris commodo quis imperdiet massa. Amet venenatis
+            urna cursus eget.
+          </p>
+          <a href="/" class="button">Know Us More</a>
+        </div>
       </div>
     </section>
   </main>
